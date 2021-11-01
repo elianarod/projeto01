@@ -1,0 +1,84 @@
+<!-- Eliana Rodrigues, P1 WD2, FBAUP, 03.11.2021 -->
+
+<!-- IMPORTANTE: Esta página só funciona no Google Chrome em Android.
+Para que funcione é necessária a ativação da seguinte flag relativa ao ambient light sensor: "chrome://flags/#enable-generic-sensor-extra-classes". -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="author" content="Eliana Rodrigues" />
+    <meta
+      name="description"
+      content="Through interactive poetry and variable fonts, this website aims to explore the semantic and visual meaning of the words Privacy and Transparency."
+    />
+    <!-- Importar libraria de ícones fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/a8fb07fff4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Privacy</title>
+  </head>
+
+  <body>
+    <main>
+      <!-- Mensagem de aviso -->
+      <p id="aviso">
+        This viewport is huge!<br />Mind trying this website on your phone?
+      </p>
+
+      <!-- PRIVACY -->
+
+      <section class="privacy">
+        <!-- Botão mudar de página  -->
+        <button id="btn-p"><i class="fas fa-arrow-right"></i></button>
+
+        <!-- Botão clear -->
+        <button id="btn-clear"><i class="fas fa-backspace"></i></button>
+
+        <!-- Input de password -->
+        <form>
+          <input
+            type="password"
+            placeholder="Create a password"
+            spellcheck="false"
+            maxlength="12"
+          />
+          <button type="submit" id="btn-submit">
+            <i class="fas fa-check"></i>
+          </button>
+        </form>
+
+        <p>
+          protect your data <i class="fas fa-mobile"></i>
+          <i class="fas fa-sync-alt fa-rotate-90"></i>
+        </p>
+      </section>
+      <!-- ------------------------------------------------------------------------------------------------- -->
+
+      <!-- TRANSPARENCY -->
+
+      <!-- Mensagem de erro -->
+      <p id="erro">
+        Uh Oh...Did you enable the Generic Sensor Extra Classes flag in Google
+        Chrome?
+      </p>
+
+      <section class="transparency">
+        <!-- Botão mudar de página 2 -->
+        <button id="btn-t"><i class="fas fa-arrow-right"></i></button>
+
+        <!-- Texto -->
+        <h1 id="transparency-h1">
+          Transparency<br />Transparency<br />Transparency<br />Transparency<br />Transparency<br />Transparency<br />Transparency<br />
+        </h1>
+
+        <p>access your data <i class="fas fa-lightbulb"></i></p>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
