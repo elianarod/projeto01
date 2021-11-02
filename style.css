@@ -134,6 +134,8 @@ table {
   border-spacing: 0;
 }
 
+/* ------------------------------------------------------------------------------------------------------------ */
+
 /* Importar fontes */
 @font-face {
   src: url("HandjetVF-All.ttf");
@@ -154,6 +156,8 @@ table {
 /* Fonte legendas */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
 
+/* ------------------------------------------------------------------------------------------------------------ */
+
 /* GERAL */
 body {
   overflow: hidden;
@@ -173,6 +177,8 @@ p {
 ::selection {
   background: lightgrey;
 }
+
+/* ------------------------------------------------------------------------------------------------------------ */
 
 /* PRIVACY */
 .privacy {
@@ -241,6 +247,8 @@ form [type="password"] {
   font-size: 20px;
 }
 
+/* ------------------------------------------------------------------------------------------------------------ */
+
 /* TRANSPARENCY */
 .transparency {
   display: none;
@@ -297,6 +305,8 @@ form [type="password"] {
   margin-top: 1.1em;
   font-size: 20px;
 }
+
+/* ------------------------------------------------------------------------------------------------------------ */
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 768px) {

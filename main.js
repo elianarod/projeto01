@@ -112,7 +112,7 @@ function mudaPagina2() {
   // Adicionar elementos da TRANSPARENCY
   document.querySelector(".transparency").style.display = "flex";
   // Muda o título do documento
-  document.title = "Transparency";
+  document.title = "Access your data";
 }
 
 // Verifica se o 2º botão "->" foi clicado
@@ -128,13 +128,13 @@ function mudaPagina() {
   // Adicionar elementos da PRIVACY
   document.querySelector(".privacy").style.display = "flex";
   // Muda o título do documento
-  document.title = "Privacy";
+  document.title = "Protect your data";
 }
 
 //---------------------------------------------------------------------------------------------------
 
 // TRANSPARENCY
-// AMBIENT LIGHT SENSOR (basedo em: https://variablefonts.dev/posts/light-sensor-demo/)
+// Ambient Light Sensor (basedo em: https://variablefonts.dev/posts/light-sensor-demo/)
 let text = document.querySelector("h1");
 
 text.addEventListener("input", function () {
